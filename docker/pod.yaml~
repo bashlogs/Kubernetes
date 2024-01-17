@@ -1,0 +1,9 @@
+piVersion: v1
+kind: Pod
+metadata:
+    name: demo
+    spec:
+        containers:
+            - name: testpod
+                  image: alpine:latest
+                        command: ["ping", "8.8.8.8"]
